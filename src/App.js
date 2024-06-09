@@ -7,7 +7,7 @@ import SaleOrderForm from './Component/SaleOrderForm';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='my-app'>
       <div className="app">
         <Routes>
           <Route path="/login" element={<Login />} />
